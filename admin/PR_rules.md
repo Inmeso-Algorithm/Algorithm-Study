@@ -1,34 +1,44 @@
-# Algorithm Study
+# PR 규칙
 
-[인하대학교 단풍나무숲](https://www.facebook.com/inhamaple) 구성원들 중 알고리즘 문제풀이에 관심이 있는 사람들을 위한 저장소입니다.
+본 알고리즘 스터디에서는 아래 규칙을 따라서 pull request를 보내 주시기 바랍니다.
 
 ## 목차
 
-- PR 방법 및 규칙
-- 문제 목록
-- 코딩 테스트 기출문제 모음
+- 디렉토리
+- 파일명
+- commit 메세지
+- pull request 마치기
 
-## PR 방법 및 규칙
+## 디렉토리
 
-Git 사용 방법을 잘 모르신다면 [여기]()를 통해서 기초 사용 방법을 확인해 주세요.  
-본 저장소의 PR 규칙은 [여기](/admin/PR_rules.md)를 통해 확인해 주세요. 규칙에 어긋나는 PR은 merge되지 않습니다.  
-그 외 본 저장소의 규칙은 [여기]()를 참고해 주세요.
+아래와 같이 각 사용자마다 폴더를 하나씩 만들어 놓고 사용하면 됩니다.
+![directory](/images/admin_userDir.PNG)
+사용자 폴더 내에서는 추가 폴더를 마음껏 생성할 수 있습니다.
 
-## 문제 목록
+## 파일명
 
-매주 4개의 문제가 새롭게 추가됩니다.
-|날짜|문제 1|문제 2|문제 3|문제 4|
-|------|------|------|------|------|
-|2022년 16주차 (04.17 ~ 04.23)|[피자](https://www.acmicpc.net/problem/3213)|[주사위 굴리기](https://www.acmicpc.net/problem/14499)|[아기 상어](https://www.acmicpc.net/problem/16236)|[문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)|
+파일명은 백준과 프로그래머스에 따라 아래 형식을 따라야 합니다.
 
-## 코딩 테스트 기출문제 모음
+- 백준: 문제번호\_문제이름.확장자
+  - ex: 3213\_피자.cpp
+- 프로그래머스: 문제이름.확장자
+  - ex: 문자열 압축.kt
 
-### 2022 KAKAO BLIND RECRUITMENT
+## commit 메세지
 
-- [1. 신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)
-- [2. k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335)
-- [3. 주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341)
-- [4. 양궁대회](https://programmers.co.kr/learn/courses/30/lessons/92342)
-- [5. 양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343)
-- [6. 파괴되지 않은 건물](https://programmers.co.kr/learn/courses/30/lessons/92344)
-- [7. 사라지는 발판](https://programmers.co.kr/learn/courses/30/lessons/92345)
+커밋 메세지는 백준과 프로그래머스에 따라 아래 형식을 따라야 합니다.
+
+- 백준: 문제번호 - 문제이름
+  - ex: 3213 - 피자
+- 프로그래머스: 프로그래머스 - 문제이름
+  - ex: 프로그래머스 - 문자열 압축
+
+## pull request 마치기
+
+commit 명령어를 마치고 나서 GitHub 저장소에 가보면, 아래 사진과 같은 버튼이 활성화됩니다.
+![commit](/images/admin_commit.PNG)
+해당 버튼을 클릭하면, commit에 대해 아래와 같이 구체적인 내용을 적을 수 있는 화면이 나타납니다.  
+![pr](/images/admin_pullRequest.PNG)
+해결한 문제에 대한 간단한 설명 (예: 사용한 알고리즘, 시간복잡도, 고려한 엣지 케이스 등)을 작성하시고, commit을 누르면 완료됩니다.  
+![prsuccess](/images/admin_PRsuccess.PNG)
+보낸 commit은 이후 위 규칙을 만족하는 경우 confirm 됩니다.
