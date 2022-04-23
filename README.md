@@ -20,6 +20,7 @@ Git 사용 방법을 잘 모르신다면 [여기](/admin/GitHub_Intro.md)를 통
 |날짜|문제 1|문제 2|문제 3|문제 4|
 |------|------|------|------|------|
 |2022년 16주차 </br>(04.17 ~ 04.23)|[피자](https://www.acmicpc.net/problem/3213)|[주사위 굴리기](https://www.acmicpc.net/problem/14499)|[아기 상어](https://www.acmicpc.net/problem/16236)|[문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)|
+|2022년 17주차 </br>(04.24 ~ 04.30)|[회의실 배정](https://www.acmicpc.net/problem/1931)|[토마토](https://www.acmicpc.net/problem/7576)|[알파벳](https://www.acmicpc.net/problem/1987)|[메이플스토리](https://www.acmicpc.net/problem/20925)|
 
 ## 코딩 테스트 기출문제 모음
 
