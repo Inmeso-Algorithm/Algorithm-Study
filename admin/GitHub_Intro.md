@@ -1,7 +1,8 @@
 # GitHub 사용 방법
 
 본 저장소 참여를 위한 GitHub 사용 방법을 안내합니다.  
-기본적인 Git 사용 방법은 [여기]()를 통해 확인해 주세요. CLI 환경, GitHub Desktop 등 전부 괜찮습니다.
+Git에 대한 자세한 내용은 [여기](https://www.opentutorials.org/course/2708)를 통해 확인해 주세요.  
+여기서는 Git CLI를 기준으로 설명합니다. (Terminal, Git Bash 등등)
 
 ## 목차
 
