@@ -2,8 +2,6 @@ import sys
 
 input = sys.stdin.readline
 
-plus = []
-minus = []
 big = 0
 small = 0
 result = 2100000000
