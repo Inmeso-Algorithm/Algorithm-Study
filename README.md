@@ -23,6 +23,7 @@ Git 사용 방법을 잘 모르신다면 [여기](/admin/GitHub_Intro.md)를 통
 |2022년 17주차 </br>(04.24 ~ 04.30)|[회의실 배정](https://www.acmicpc.net/problem/1931)|[토마토](https://www.acmicpc.net/problem/7576)|[알파벳](https://www.acmicpc.net/problem/1987)|[메이플스토리](https://www.acmicpc.net/problem/20925)|
 |2022년 18주차 </br>(05.01 ~ 05.07)|[퇴사](https://www.acmicpc.net/problem/14501)|[연구소](https://www.acmicpc.net/problem/14502)|[두 용액](https://www.acmicpc.net/problem/2470)|[청소년 상어](https://www.acmicpc.net/problem/19236)|
 |2022년 19주차 </br>(05.08 ~ 05.14)|[모든 순열](https://www.acmicpc.net/problem/10974)|[뱀](https://www.acmicpc.net/problem/3190)|[어른 상어](https://www.acmicpc.net/problem/19237)|[키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)|
+|2022년 20주차 </br>(05.15 ~ 05.21)|[테트로미노](https://www.acmicpc.net/problem/14500)|[로봇 청소기](https://www.acmicpc.net/problem/14503)|[감시 피하기](https://www.acmicpc.net/problem/18428)|[마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)|
 
 ## 코딩 테스트 기출문제 모음
 
