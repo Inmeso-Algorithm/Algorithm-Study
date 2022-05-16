@@ -15,7 +15,6 @@ dx = [0, 1, 0, -1]
 dy = [-1, 0, 1, 0]
 
 
-
 def invalid_index(x, y):
     if x < 0 or y < 0 or x == num[1] or y == num[0]:
         return True
