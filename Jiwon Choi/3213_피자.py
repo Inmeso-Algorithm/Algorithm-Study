@@ -34,8 +34,3 @@ if(half % 2 == 1 and quarter > 0):
 pizza -= quarter - math.ceil(quarter / 4)
         
 print(pizza)
-
-
-    
-        
-input("")
