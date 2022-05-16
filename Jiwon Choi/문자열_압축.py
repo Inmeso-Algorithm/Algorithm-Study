@@ -23,11 +23,6 @@ def solution(s):
         if (calLen < retVal):
             retVal = calLen
     return retVal
-            
 
 j = input()
 print(solution(j))
-
-
-
-wait = input()
