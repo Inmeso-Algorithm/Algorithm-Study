@@ -16,14 +16,13 @@ back = n-1
 while(True):
     if front == back:
         break
-    
+   
     tempsum = nums[front] + nums[back]
     
     if abs(tempsum) < abs(result):
         big = nums[back]
         small = nums[front]
         result = tempsum
-    
     
     if tempsum > 0 :
         back -= 1
@@ -32,6 +31,7 @@ while(True):
     elif tempsum < 0:
         front += 1
         continue
+        
     else:
         break
 
