@@ -8,7 +8,7 @@ endpoint = 0
 n = int(input())
 
 for i in range(n):
-    pair = input().split(' ')
+    pair = input().split()
     arr.append(list(map(int, pair)))
     
 arr.sort(key=lambda x: (x[1], x[0]))
