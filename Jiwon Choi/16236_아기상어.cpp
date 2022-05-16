@@ -3,7 +3,7 @@
 #define MAX 100000
 using namespace std;
 
-class Pair { // ÁÂÇ¥ ¼ø¼­½ÖÀ» ÀúÀåÇØÁÙ Pair Å¬·¡½º
+class Pair { // ì¢Œí‘œ ìˆœì„œìŒì„ ì €ì¥í•´ì¤„ Pair í´ë˜ìŠ¤
 public:
 	int x;
 	int y;
@@ -32,14 +32,14 @@ public:
 
 int shark_size = 2, fish_count = 0, timer = 0;
 
-int** grid; // ¹Ù´ÙÀÇ »óÈ²À» ÀúÀåÇÒ 2Â÷¿ø¹è¿­ Æ÷ÀÎÅÍ grid
-int** dist; // °Å¸®¸¦ °è»êÇÒ 2Â÷¿ø¹è¿­ Æ÷ÀÎÅÍ dist
+int** grid; // ë°”ë‹¤ì˜ ìƒí™©ì„ ì €ì¥í•  2ì°¨ì›ë°°ì—´ í¬ì¸í„° grid
+int** dist; // ê±°ë¦¬ë¥¼ ê³„ì‚°í•  2ì°¨ì›ë°°ì—´ í¬ì¸í„° dist
 
 int dx[4] = { -1, 0, 1, 0 };
 int dy[4] = { 0, 1, 0, -1 };
 
-Pair shark_loc; // »ó¾îÀÇ À§Ä¡¸¦ ÀúÀåÇÒ Pair °´Ã¼
-Pair fish_loc; // ´ÙÀ½¿¡ ¸ÔÀ» ¹°°í±â¸¦ ÀúÀåÇÒ Pair °´Ã¼, ¸ÔÀ» ¹°°í±â°¡ ¾øÀ¸¸é (-1, -1)·Î ÃÊ±âÈ­µÊ
+Pair shark_loc; // ìƒì–´ì˜ ìœ„ì¹˜ë¥¼ ì €ì¥í•  Pair ê°ì²´
+Pair fish_loc; // ë‹¤ìŒì— ë¨¹ì„ ë¬¼ê³ ê¸°ë¥¼ ì €ì¥í•  Pair ê°ì²´, ë¨¹ì„ ë¬¼ê³ ê¸°ê°€ ì—†ìœ¼ë©´ (-1, -1)ë¡œ ì´ˆê¸°í™”ë¨
 
 bool invalid_index(int x, int y, int n) {
 	if (x < 0 || x == n || y < 0 || y == n) return true;
@@ -86,7 +86,7 @@ void bfs(Pair start_loc, int n) {
 	}
 }
 
-void clear(int n) { //dist 2Â÷¿ø ¹è¿­À» ÃÊ±âÈ­ÇØÁÖ´Â ÇÔ¼ö
+void clear(int n) { //dist 2ì°¨ì› ë°°ì—´ì„ ì´ˆê¸°í™”í•´ì£¼ëŠ” í•¨ìˆ˜
 	for (int i = 0; i < n; i++) {
 		for (int k = 0; k < n; k++) {
 			dist[i][k] = MAX;
@@ -95,10 +95,10 @@ void clear(int n) { //dist 2Â÷¿ø ¹è¿­À» ÃÊ±âÈ­ÇØÁÖ´Â ÇÔ¼ö
 }
 
 int main() {
-	int n, v; //nÀº gridÀÇ Å©±â, v´Â grid°¢°¢ÀÇ value
+	int n, v; //nì€ gridì˜ í¬ê¸°, vëŠ” gridê°ê°ì˜ value
 	cin >> n;
 
-	grid = new int* [n]; // grid¿Í dist µ¿Àû ÇÒ´çÀ¸·Î 2Â÷¿ø ¹è¿­À» ¸¸µë
+	grid = new int* [n]; // gridì™€ dist ë™ì  í• ë‹¹ìœ¼ë¡œ 2ì°¨ì› ë°°ì—´ì„ ë§Œë“¬
 	dist = new int* [n];
 	for (int i = 0; i < n; i++) {
 		grid[i] = new int[n];
@@ -109,7 +109,7 @@ int main() {
 		for (int k = 0; k < n; k++) {
 			cin >> v;
 			if (v == 9) {
-				shark_loc.assign(i, k); // »ó¾îÀÇ À§Ä¡¸¦ ¹Ì¸® Ã£¾Æ¼­ bfs ½Ã ³Ñ°ÜÁÙ ¿¹Á¤
+				shark_loc.assign(i, k); // ìƒì–´ì˜ ìœ„ì¹˜ë¥¼ ë¯¸ë¦¬ ì°¾ì•„ì„œ bfs ì‹œ ë„˜ê²¨ì¤„ ì˜ˆì •
 			}
 			grid[i][k] = v;
 		}
