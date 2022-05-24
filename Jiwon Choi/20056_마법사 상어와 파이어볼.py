@@ -46,7 +46,7 @@ def magic_order(): ### 마법사 상어의 이동명령을 구현한 함수
                 merged_speed += next_grid[i][j][k].speed
                 if drt_check != next_grid[i][j][k].drt % 2:
                     drt_flag = False
-            6
+            
             next_grid[i][j].clear() ### 기존에 있던 파이어볼들을 삭제함
             
             for p in range(4):
@@ -72,6 +72,4 @@ for line in grid:
             ans += fireball.mass
 
 print(ans)
-
-wait=input()
     
