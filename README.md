@@ -30,6 +30,7 @@ Git 사용 방법을 잘 모르신다면 [여기](/admin/GitHub_Intro.md)를 통
 |2022년 24주차 </br>(06.12 ~ 06.18)|[LCA](https://www.acmicpc.net/problem/11437)|[로봇 청소기](https://www.acmicpc.net/problem/14503)|[문제집](https://www.acmicpc.net/problem/1766)|[상어 중학교](https://www.acmicpc.net/problem/21609)|
 |2022년 25주차 </br>(06.19 ~ 06.25)|[행렬 제곱](https://www.acmicpc.net/problem/10830)|[플로이드](https://www.acmicpc.net/problem/11404)|[단어 섞기](https://www.acmicpc.net/problem/9177)|[마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610)|
 |2022년 26주차 </br>(06.26 ~ 07.02)|[전화번호 목록](https://www.acmicpc.net/problem/5052)|[찾기](https://www.acmicpc.net/problem/1786)|[중량제한](https://www.acmicpc.net/problem/1939)|[마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)|
+|2022년 27주차 </br>(07.03 ~ 07.09)|[드래곤 커브](https://www.acmicpc.net/problem/15685)|[감시](https://www.acmicpc.net/problem/1786)|[주사위 굴리기](https://www.acmicpc.net/problem/23288)|[마법사 상어와 복제](https://www.acmicpc.net/problem/23290)|
 
 ## 코딩 테스트 기출문제 모음
 
