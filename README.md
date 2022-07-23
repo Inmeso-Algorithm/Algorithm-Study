@@ -33,6 +33,7 @@ Git 사용 방법을 잘 모르신다면 [여기](/admin/GitHub_Intro.md)를 통
 |2022년 27주차 </br>(07.03 ~ 07.09)|[드래곤 커브](https://www.acmicpc.net/problem/15685)|[감시](https://www.acmicpc.net/problem/15683)|[주사위 굴리기 2](https://www.acmicpc.net/problem/23288)|[마법사 상어와 복제](https://www.acmicpc.net/problem/23290)|
 |2022년 28주차 </br>(07.10 ~ 07.16)|[새로운 게임 2](https://www.acmicpc.net/problem/17837)|[여행 가자](https://www.acmicpc.net/problem/1976)|[저울](https://www.acmicpc.net/problem/10159)|[어드벤처 게임](https://www.acmicpc.net/problem/2310)|
 |2022년 29주차 </br>(07.17 ~ 07.23)|[프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679)|[양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)|[압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684)|[방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683)|
+|2022년 30주차 </br>(07.24 ~ 07.30)|[주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)|[파일명 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686)|[비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)|[k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335)|
 
 ## 코딩 테스트 기출문제 모음
 
