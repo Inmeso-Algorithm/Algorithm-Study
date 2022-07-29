@@ -28,3 +28,4 @@ for i in range(len(score_list)):
     result_list += [float(score_list[i] * grade_list[i])]
 
 print("0.000000" if sum(score_list) == 0 else round(float(sum(result_list) / sum(score_list)), 6))
+#
