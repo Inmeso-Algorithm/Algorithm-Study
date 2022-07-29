@@ -112,14 +112,3 @@ for t in task:
             print(dice[3])  
     else:
         pass
-    '''
-    print("Task " + t + " is done..." )
-    print(dice)
-    print(loc)
-    for v in map1:
-        print(v)
-    print()
-    print()
-    '''
-
-wait = input()
