@@ -37,6 +37,7 @@ Git 사용 방법을 잘 모르신다면 [여기](/admin/GitHub_Intro.md)를 통
 |2022년 31주차 </br>(07.31 ~ 08.06)|[추석 트래픽](https://school.programmers.co.kr/learn/courses/30/lessons/17676)|[기둥과 보 설치](https://school.programmers.co.kr/learn/courses/30/lessons/60061)|[메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411)|[순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412)|
 |2022년 32주차 </br>(08.07 ~ 08.13)|[파일 합치기](https://www.acmicpc.net/problem/11066)|[타임머신](https://www.acmicpc.net/problem/11657)|[외판원 순회](https://www.acmicpc.net/problem/2098)|[트리의 지름](https://www.acmicpc.net/problem/1167)|
 |2022년 33주차 </br>(08.14 ~ 08.20)|[우주 탐사선](https://www.acmicpc.net/problem/17182)|[빵집](https://www.acmicpc.net/problem/3109)|[피자판매](https://www.acmicpc.net/problem/2632)|[후위 표기식](https://www.acmicpc.net/problem/1918)|
+|2022년 34주차 </br>(08.21 ~ 08.27)|[운동](https://www.acmicpc.net/problem/1956)|[수식 표현](https://www.acmicpc.net/problem/1955)|[Ezreal 여눈부터 가네 ㅈㅈ](https://www.acmicpc.net/problem/20500)|[나무 재테크](https://www.acmicpc.net/problem/16235)|
 
 ## 코딩 테스트 기출문제 모음
 
