@@ -1,0 +1,25 @@
+v, e = map(int, input().split())
+INF = 1e9
+cycle = [[int(INF)] * (v + 1) for _ in range(v + 1)]
+
+for i in range(e):
+    a, b, c = map(int, input().split())
+    cycle[a][b] = c
+
+# k : 경유지
+# i : 출발지
+# j : 도착지
+for k in range(1, v + 1):
+    for i in range(1, v + 1):
+        for j in range(1, v + 1):
+            if cycle[i][k] + cycle[k][j] < cycle[i][j]:
+                cycle[i][j] = cycle[i][k] + cycle[k][j]
+
+result = INF
+for i in range(1, v + 1):
+    result = min(result, cycle[i][i])  # 본인부터 본인 사이클까지 저장됨
+
+if result == INF:
+    print(-1)
+else:
+    print(result)
